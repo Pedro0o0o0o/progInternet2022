@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Exemplo de uso de um formulário</h1>
+    </header>
+    <section id="cadastro">
+    </section>
+    <h2>Inicio do formulario</h2>
+    <form action="#">
+        <label for="nome">Nome:</label>
+        <imput type="text" name="nome" id="nome">
+            <label for="endereco">Endereço:</label>
+            <imput type="submit" value="Enviar">
+    </form>
+    </section>
+    <div>
+        <label for="senha">:Senha:</label>
+        <imput type="password" name="senha" id="senha" required minlenght="4" maxlenght="20">
+            <imput type="submit" value="Enviar"></imput>
+    </div>
+    <fieldset>
+        <legend>Uso de datalist</legend>
+        <div>
+            <label for="inplegumes">Legumes:</label>
+            <input type="text" name="inplegumes" id="inplegumes" list="listlegumes">
+                <datalist id="listlegumes">
+                    <option value="01">Brócolis</option>
+                    <option value="02">Pimentão</option>
+                    <option value="03">Cenoura</option>
+                    <option value="04">Batata</option>
+                </datalist>
+        </div>
+    </fieldset>
+
+
+    <fieldset>
+<legend>Seletores</legend>
+<div>
+    <label for="seltime">Time do Coração:</label>
+    <select name="seltime" id="seltime">
+<optgroup label="Times Paulistas"> 
+    <option value="01">Corinthians</option>
+    <option value="02">São Paulo</option>
+    <option value="03">Palmeiras</option>
+    <option value="04">Santos</option>
+</optgroup>
+<optgroup label="Times Paulistas">
+    <option value="05">Fluminense</option>
+    <option value="06">Botafogo</option>
+    <option value="07">Flamengo</option>
+    <option value="08">Vasco da Gama</option>
+</optgroup>
+    </select>
+</div>
+    </fieldset>
+    <select name="selJogos" id="selJogos" multiple size="5"> 
+        <optgroup label="Jogos Indie"> 
+            <option value="01">Hollow Knight</option>
+            <option value="02">Celeste</option>
+            <option value="03">Terraria</option>
+        </optgroup> 
+        <optgroup label="Jogos AAA"> 
+            <option value="04">Dark Souls</option>
+            <option value="05">Final Fantasy</option>
+            <option value="06">The Witcher</option>
+        </optgroup> 
+    </select>
+    <fieldset>
+        <textarea name="txtbio" id="txtbio" cols="30" rows="10">
+                         
+            
+            
+
+
+
+
+
+
+
+            
+            
+Texto foda
+        </textarea>
+    </fieldset>
+</body>
+
+</html>
