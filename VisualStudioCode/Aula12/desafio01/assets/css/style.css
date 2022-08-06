@@ -1,0 +1,151 @@
+
+/* 
+ * Reset de propriedades 
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 
+ * Elementos html 
+ */
+
+body { 
+  background-color: #F5F5F5;
+  display: grid;
+  grid-template:
+  "lateral cabecalho" 60px
+  "lateral body" 1fr
+  "lateral rodape" 60px
+  /320px auto;
+}
+
+/* 
+ * Primeiramente os IDs 
+ */
+#cabecalho { grid-area: cabecalho;
+  display: flex;
+  background-color: white;
+  padding: 10px;
+  flex-direction: row;
+  box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+}
+
+#pesquisar { 
+  width: 300px;
+  border-radius: 8px 0 0 8px;
+  border: 1px solid #f5f5f5;
+  background-color: #F5F5F5;
+  padding: 5px;
+}
+
+#barra-esquerda { 
+  height: 100vh;
+  grid-area: lateral;
+  background-color:  #4E73DF;
+  padding: 20px;
+  color: white
+}
+
+#rodape { 
+  grid-area: rodape;
+  background-color: white;
+  box-shadow: 0px -4px 4px rgba(0,0,0,0.25);
+  text-align: center;
+  padding-top: 20px;
+}
+
+#corpo { 
+  grid-area: body;
+  padding: 20px;
+}
+
+/* 
+ * Classes 
+ */
+.btn-pesquisar { 
+  width: 40px;
+  height: 40px;
+  background-color: #4E73DF;
+  color: white;
+  border-radius: 0 8px 8px 0;
+  text-align: center;
+  padding-top: 12px;
+}
+
+.div-pesquisar { 
+  flex-direction: row;
+  display: flex;
+  flex: 1;
+}
+
+.not-bell, .not-msg { 
+  font-size: 20px;
+  color: #c2c2c2;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.not-msg { }
+
+.perf-quadro { 
+  display: flex;
+}
+
+.perf-nome { 
+  text-align: center;
+  padding-top: 10px;
+  flex-direction: row;
+  padding-left: 10px;
+  padding-top: 10px;
+  border-left: 2px solid #c2c2c2;
+}
+
+.perf-foto { 
+  background-color: #c2c2c2;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 6px;
+  font-size: 20px;
+}
+
+.logo-aside img { 
+  width: 280px;
+  
+}
+
+.home-aside { 
+  padding-bottom: 10px;
+  border-bottom: 2px solid white;
+  align-items: center;
+}
+
+.nav-aside { }
+
+.menu { 
+  list-style: none;
+}
+
+.menu-item { 
+  margin-top: 15px;
+}
+
+.menu-item a { 
+  text-decoration: none;
+  color: white;
+  padding-top: 22px;
+}
+
+.menu-item a:hover{
+  color: #c2c2c2;
+  color: rgb(255, 0, 0);
+  font-size: 15px;
+}
+
+.div-direitos { }
