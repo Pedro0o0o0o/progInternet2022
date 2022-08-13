@@ -1,0 +1,46 @@
+section { 
+    background-color: #F5F5F5;
+    text-align: center;
+    display: grid;
+    grid-template:
+    "tracinho texto relogio"
+    "visor visor visor"
+}
+#tracinho {
+    grid-area: tracinho;
+    padding-top: 20px;
+    background-color: rgb(24, 24, 24);
+    color: rgb(255, 255, 255);
+}
+
+#texto {
+    grid-area: texto;
+    padding-bottom: 10px;
+    text-align: start;
+    background-color: rgb(24, 24, 24);
+    color: rgb(255, 255, 255);
+}
+
+#relogio {
+    grid-area: relogio;
+    padding-top: 15px;
+    background-color: rgb(24, 24, 24);
+    color: rgb(255, 255, 255);
+}
+
+#visor {
+    grid-area: visor;
+    padding-top: 200px;
+    width: 2000px;
+    flex-direction: column;
+    text-align: start;
+    background-color: rgb(24, 24, 24);
+    color: rgb(255, 255, 255);
+}
+
+#raizQuadrada {
+    grid-area: relogio;
+    padding-top: 200px;
+    background-color: rgb(24, 24, 24);
+    color: rgb(255, 255, 255);
+}
