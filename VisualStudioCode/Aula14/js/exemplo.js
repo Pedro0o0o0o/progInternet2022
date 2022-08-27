@@ -11,6 +11,6 @@ console.log(btns);
 Array.from(btns).forEach(btn=> {
     btn.addEventListener("click", () =>{
     // alert("Você clicou no botão " + btn.dataset.valor);
-    disp.innerHTML = btn.dataset.valor;
+    disp.innerHTML += btn.dataset.valor;
     })
 });
