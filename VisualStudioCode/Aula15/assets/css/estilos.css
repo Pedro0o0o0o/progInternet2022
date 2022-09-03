@@ -1,0 +1,87 @@
+* { font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+header {
+    background-color: rgb(0, 144, 228);
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+header h2 {
+    margin-left: 10px;
+}
+
+.clCampos {
+    display: flex;
+    gap: 15px;
+    padding: 5px;
+    align-items: center;
+}
+
+.clCampos input:not([type=radio]) {
+    width: 100%;
+    border-radius: 5px;
+    height: 25px;
+    border: 1px solid silver;
+}
+
+.cjInput {
+    display: flex;
+}
+
+.btnInput {
+    background-color: darkgray;
+    padding: 5px;
+    border-radius: 5px 0 0 5px;
+}
+
+.cjInput input {
+    border-radius: 0 5px 5px 0 !important;
+}
+
+.cl3Colunas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.clObrigatorio {
+    color: red;
+}
+
+#pesqCep {
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+#pesqCep:hover {
+    background-color: rgb(0, 0, 153);
+    cursor: pointer;
+}
+
+.clCampos input[type=submit] {
+    background-color: green;
+    color: white;
+}
+
+.clCampos input[type=submit]:hover{
+    background-color: rgb(0, 66, 0);
+    cursor: pointer;
+}
+
+.clCampos input[type=reset] {
+    background-color: red;
+    color: white;
+}
+
+.clCampos input[type=reset]:hover{
+    background-color: rgb(151, 0, 0);
+    cursor: pointer;
+}
+
+ #msgErro {
+    color: red; 
+    display: none;
+} 
