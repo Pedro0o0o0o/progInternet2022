@@ -1,0 +1,22 @@
+
+
+.cadastrar {
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    border: green;
+}
+
+.cancelar {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: red;
+}
+
+.pesquisar {
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    border: blue;
+}
